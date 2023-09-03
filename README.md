@@ -52,33 +52,33 @@ Committing changes in Git is a basic operation that records your changes to the 
 1. Navigate to Your Git Repository
 Open a terminal or command prompt and navigate to the directory where your Git repository is located. You can use the `cd` (change directory) command to navigate to your project's root directory:
 ```
-	`cd /path/to/your/repository`
+	cd /path/to/your/repository
 ```
 2. Check the Status
 Before committing, it's a good practice to check the status of your repository to see what changes have been made and which files are ready to be committed. Use the following command:
 ```
-	`git status`
+	git status
 ```
 This command will show you a list of untracked, modified, and staged files.
 3. Stage Your Changes
 To commit changes, you need to stage them first. Staging means selecting the changes you want to include in the commit. You can stage specific files or all changes. To stage specific files, use:
 ```
-	`git add fileA fileB ...`
+	git add fileA fileB ...
 ```
 To stage all changes, use:
 ```
-	`git add .`
+	git add .
 ```
 Replace fileA, fileB, and so on with the actual names of the files you want to stage. The `.` notation is a shorthand for staging all changes in the current directory and its subdirectories.
 4. Commit Your Changes
 Once your changes are staged, you can commit them with a descriptive message using the git commit command:
 ```
-	`git commit -m` "Your commit message"
+	git commit -m "Your commit message"
 ```
 Replace "Your commit message" with a concise and meaningful description of your changes. A good commit message should explain why you made the changes and what they accomplish.
 5. Verify Your Commit
 ```
-	`git log`
+	git log
 ```
 This command displays a list of commits, including the commit message, author, date, and a unique commit identifier (hash). Your most recent commit should appear at the top of the list.
 
